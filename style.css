@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .4s;
+}
+body{
+    display: flex;
+    padding: 20px;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+aside{
+    width: 15%;
+}
+main{
+    width: 70%;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 20px;
+    line-height: 40px;
+    box-shadow: 1px 3px 11px 1px;
+}
+.user{
+    padding: 10px;
+    cursor: pointer;
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 3px 11px 1px;
+}
+.active{
+    background-color: bisque;
+}
+h2{
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+
+}
